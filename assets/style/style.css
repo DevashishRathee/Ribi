@@ -1,0 +1,177 @@
+html,
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "ABC Ginto Normal","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.loginContainerPage{
+    background-color: #36394f;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginContainer{
+    background-color: #36393f;
+    border-radius: 5px;
+    overflow: hidden;
+    min-height: 400px;
+    max-height: 100%;
+    width: 480px;
+    height: 602px;
+    box-shadow: rgb(0 0 0 / 50%) 0 2px 3px;
+}
+
+.loginContainer form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.loginContainer form input[type="text"],
+.loginContainer form input[type="email"],
+.loginContainer form input[type="password"]{
+    font-size: 14px;
+    margin: 10px 5px;
+    border: none;
+    border-bottom:1px solid red;
+    border-radius: 2px;
+    height: 27px;
+    background-color: #202225;
+    font: "ABC Ginto Normal","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+.loginContainer form input[type="submit"]{
+    font-family: "ABC Ginto Normal","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:18px;
+    background-color: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
+    border-radius: 2px;
+    border: none;
+    width:75%;
+    height: 50px;
+    font-weight: 450;
+    margin-top: 30px;
+    align-self: center;
+    color: white
+}
+
+.medium-heading{
+    font-family: "ABC Ginto Normal","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    color: #FFF
+}
+
+
+.subscribe-mail-parent{
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    color: grey;
+}
+
+.header-register{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+    font-family: "ABC Ginto Normal","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+    font-weight: 420;
+    align-self: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.header-register .span{
+    align-self: center;
+}
+
+.header-register #logo img{
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.loginContainer .signInMessage{
+    display: block;
+    margin-top: 10px;
+    margin-left: 31%;
+    text-decoration: none;
+    color: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
+}
+
+.loginContainer .signInMessage:hover{
+    text-decoration: underline;
+}
+
+.loginContainer2{
+    background-color: #36393f;
+    border-radius: 5px;
+    overflow: hidden;
+    min-height: 400px;
+    max-height: 100%;
+    width: 480px;
+    height: 404.2px;
+    box-shadow: rgb(0 0 0 / 50%) 0 2px 3px;
+}
+
+.loginContainer2 form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.loginContainer2 form input[type="text"],
+.loginContainer2 form input[type="email"],
+.loginContainer2 form input[type="password"]{
+    font-size: 14px;
+    margin: 10px 5px;
+    border: none;
+    border-bottom:1px solid red;
+    border-radius: 2px;
+    height: 27px;
+    background-color: #202225;
+    font: "ABC Ginto Normal","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+.loginContainer2 form input[type="submit"]{
+    font-family: "ABC Ginto Normal","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:18px;
+    background-color: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
+    border-radius: 2px;
+    border: none;
+    width:75%;
+    height: 50px;
+    font-weight: 450;
+    margin-top: 30px;
+    align-self: center;
+    color: white
+}
+
+.loginContainer2 .signInMessage{
+    display: block;
+    margin-top: 10px;
+    margin-left: 35%;
+    text-decoration: none;
+    color: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
+}
+
+.loginContainer2 .signInMessage:hover{
+    text-decoration: underline;
+}
+
+.errorMessage{
+    color: red;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
